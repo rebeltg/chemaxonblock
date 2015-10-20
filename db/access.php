@@ -13,7 +13,6 @@
 
     'block/chemaxonblock:addinstance' => array(
       'riskbitmask' => RISK_SPAM | RISK_XSS,
-
       'captype' => 'write',
       'contextlevel' => CONTEXT_BLOCK,
       'archetypes' => array(
@@ -24,4 +23,3 @@
       'clonepermissionsfrom' => 'moodle/site:manageblocks'
     ),
   );
- ?>
